@@ -19,6 +19,7 @@ Projecto criado com Vue 3 in Vite.
 3 - Typescript
 4 - HTML
 5 - TailwindCSS 
+6 - JavaScript
 
 ## Trabalhando com vue-router para sistema de rotas ###
 
