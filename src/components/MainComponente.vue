@@ -1,17 +1,19 @@
 <script setup lang="ts">
+import { RouterView } from 'vue-router'
 defineProps<{
   msg: string
 }>()
 </script>
 
 <template>
-  <div>
+  <main>
     <h1 class="green">{{ msg }}</h1>
     <h3>
       You’ve successfully created a project with
       
     </h3>
-  </div>
+    
+  </main>
 </template>
 
 <style scoped>
