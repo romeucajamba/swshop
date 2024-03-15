@@ -9,15 +9,10 @@ import { RouterLink, RouterView } from 'vue-router'
         <h1>SWShop</h1>
     </div>
     
-
-    <div class="wrapper">
-      
-
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
       </nav>
-    </div>
   </header>
 
   <RouterView />
