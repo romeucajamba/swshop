@@ -14,7 +14,7 @@ components: {
 </script>
 
 <template>
-  <header class="bg-blue-700 w-screen h-20 flex flex-row space-x-7">
+  <header class="bg-gradient-to-r from-[#FFF8CE] from-50% to-[#091B26] to-10% w-screen h-20 flex flex-row space-x-7">
 
     
     <div class="w-[15rem] flex flex-row mt-4">
