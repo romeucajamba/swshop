@@ -6,7 +6,7 @@ import FooterComponent from './components/FooterComponent.vue'
 
 <template>
   <HeaderComponent />
-  <MainComponente msg="You did it!" />
+  <MainComponente msg="Get up to 10% off" />
   <FooterComponent/>
 </template>
 

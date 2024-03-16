@@ -30,7 +30,7 @@ components: {
     </nav>
 
     <div class="flex flex-row w-[25rem] h-20 pt-6 pl-14">
-        <input type="text" placeholder="pesquise o Smart Watch que queres" class="w-[20rem] h-[2.5rem] rounded-md pl-1 focus:outline-none z-0 text-[#545C6B] font-semibold">
+        <input type="text" placeholder="pesquise o Smart Watch que queres" class="w-[20rem] h-[2.5rem] border-2 rounded-md pl-1 focus:outline-none z-0 text-[#545C6B] font-semibold">
         <MdIconMagnify class="absolute ml-[21%] mt-2 z-30 text-[#545C6B] hover:cursor-pointer"/>
     </div>
 
