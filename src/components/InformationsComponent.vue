@@ -1,8 +1,8 @@
 <template>
-    <section class="w-screen h-[125vh] z-10 flex flex-col justify-center items-center space-y-28">
+    <section class="w-screen h-[140vh] bg-red-400 z-10 flex flex-col justify-center items-center space-y-28">
         
         <div class="flex flex-row divide-x divide-slate-700 bg-[#FFFFFF] shadow-2xl 
-                    w-[70rem] h-[17rem] space-x-14 rounded-md justify-center -mt-[8%]">
+                    w-[70rem] h-[10rem] space-x-14 rounded-md justify-center mt-[9%]">
             
             <div class="flex flex-col space-y-2 p-[4rem] justify-center">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" 

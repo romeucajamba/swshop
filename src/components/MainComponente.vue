@@ -8,7 +8,7 @@ defineProps<{
 </script>
 
 <template>
-  <main class="flex flex-col w-screen h-[250vh] bg-green-600">
+  <main class="flex flex-col w-screen h-[255vh] bg-green-600">
    
   <section class="flex flex-row bg-[#fff] w-screen h-[45rem]">
 
@@ -72,14 +72,15 @@ defineProps<{
     </div>
   </section>
 
-    <div class="absolute z-40 w-[15rem] h-[15rem] ml-[45%] 
+    <div class="absolute z-40 w-[12rem] h-[15rem] ml-[47%] 
               bg-[#FFFFFF] rounded-2xl flex flex-col 
               mt-[39%] shadow-2xl">
 
-        <img alt="Watch" class="w-[12rem] h-[12rem]
+        <img alt="Watch" class="w-[10rem] h-[10rem]
               mt-[14%] ml-[8%] z-10" src="@/assets/steps.png" />
         
     </div>
+
     <InformationsComponent/>
     <FooterComponent />
   </main>
