@@ -1,5 +1,6 @@
 <script setup lang="ts">
-
+import InformationsComponent from './InformationsComponent.vue';
+import FooterComponent from './FooterComponent.vue';
 defineProps<{
   msg: string
 }>()
@@ -7,7 +8,7 @@ defineProps<{
 </script>
 
 <template>
-  <main>
+  <main class="flex flex-col w-screen h-[250vh] bg-green-600">
    
   <section class="flex flex-row bg-[#fff] w-screen h-[45rem]">
 
@@ -73,12 +74,14 @@ defineProps<{
 
     <div class="absolute z-40 w-[15rem] h-[15rem] ml-[45%] 
               bg-[#FFFFFF] rounded-2xl flex flex-col 
-              -mt-[14%] shadow-2xl">
+              mt-[39%] shadow-2xl">
 
         <img alt="Watch" class="w-[12rem] h-[12rem]
               mt-[14%] ml-[8%] z-10" src="@/assets/steps.png" />
         
     </div>
+    <InformationsComponent/>
+    <FooterComponent />
   </main>
 </template>
 

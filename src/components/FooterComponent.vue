@@ -4,7 +4,9 @@
 
 <template>
  
- <div></div>
+ <footer>
+    
+ </footer>
 </template>
 
 <style scoped></style>
