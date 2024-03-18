@@ -18,15 +18,14 @@ components: {
 
     
     <div class="w-[15rem] flex flex-row mt-4">
-        <img alt="Vue logo" class="w-[3rem] h-[3rem] ml-6" src="@/components/icons/logoSmart.png" width="125" height="125" /> 
-        <h1 class="font-semibold text-[2rem] text-[#545C6B]"><span class="text-[#f2a379]">SW</span>Shop</h1>
-    
+        <h1 class="font-semibold text-[2rem] text-[#545C6B] ml-14"><span class="text-[#f2a379]">SW</span>Shop</h1>
     </div>
+
     <nav class="w-[25rem] flex flex-row items-center justify-between">
         <RouterLink to="/" class="text-[#545C6B] font-semibold">Home</RouterLink>
         <RouterLink to="/about" class="text-[#545C6B] font-semibold">About</RouterLink>
-        <RouterLink to="/product" class="text-[#fff] font-semibold">Product</RouterLink>
-        <RouterLink to="/shop" class="text-[#fff] font-semibold">Shop</RouterLink>
+        <RouterLink to="/product" class="text-[#545C6B] font-semibold">Product</RouterLink>
+        <RouterLink to="/shop" class="text-[#545C6B] font-semibold">Shop</RouterLink>
     </nav>
 
     <div class="flex flex-row w-[25rem] h-20 pt-6 pl-14">
@@ -36,7 +35,7 @@ components: {
 
     <MdIconCart class="text-[#fff] hover:cursor-pointer"/>
     
-    <button type="button" class="bg-[#00D77F] text-[#fff] hover:cursor-pointer hover:bg-[#fff] hover:text-[#00D77F] rounded-md font-semibold w-[6.5rem] h-[3.5rem]">Get Start</button>
+    <button type="button" class="bg-[#00D77F] text-[#fff] hover:cursor-pointer hover:bg-[#fff] hover:text-[#00D77F] rounded-md font-semibold w-[9rem] h-[3.5rem]">Get Start</button>
   </header>
 
   <RouterView />
